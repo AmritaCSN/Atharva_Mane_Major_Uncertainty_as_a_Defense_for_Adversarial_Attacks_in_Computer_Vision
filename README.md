@@ -1,6 +1,6 @@
 # Atharva_Mane_Major_Uncertainty_as_a_Defense_for_Adversarial_Attacks_in_Computer_Vision
 
-### ABOUT
+## ABOUT
 This repository contains code implementation of Minimum Prediction Deviation (MPD), an uncertainty metric, as a defense mechanism against adversarial attacks in computer vision systems.
 
 ### Architechture/Flow Daigram:
@@ -9,6 +9,7 @@ This repository contains code implementation of Minimum Prediction Deviation (MP
   <br />
   <em>Flow Diagram</em>
 </p>
+
 ## Overview
 
 Computer vision has become a pervasive tool, but its susceptibility to adversarial attacks poses a significant challenge. Adversarial examples, small input changes designed to deceive machine learning models, can lead to incorrect predictions or decisions, known as evasion attacks. In this project, we evaluate the effectiveness of Minimum Prediction Deviation (MPD) as an uncertainty defense in the field of computer vision.
