@@ -35,6 +35,10 @@ pip install torch numpy adversarial-robustness-toolbox scikit-learn
 - The MNIST database of handwritten digits has a training set of 60,000 examples and a test set of 10,000 examples.
 - Each image is a 28x28 pixel grayscale representation of a handwritten digit (0 through 9).
 - This dataset is widely used for training and evaluating machine learning models in image recognition, providing a diverse range of writing styles and digit variations.
+### GTSRB
+- GTSRB dataset is a benchmark collection of traffic sign images used for training and evaluating machine learning models in traffic sign recognition.
+- It consists of images of traffic signs from various real-world scenarios, captured under different lighting conditions, weather conditions, and viewpoints.
+- Each image is a 32x32 pixel RGB representation of a traffic sign (43 classes).
 
 ## Adversarial Robustness Toolbox (ART)
 
@@ -92,7 +96,7 @@ MPD is a metric that measures the uncertainty of a machine learning model's pred
    - Generate the testbed for evaluation.
    - The testbed consists of total 10000 samples with 75% clean and 25% AE samples.
   
-10. **Utilize the MPD Threshold Calculator for Detection:**
+10. **Utilize the MPD Threshold Calculator:**
    - Pass the Base Classifier, MPD Detector and the AE samples and the clean 75% samples.
    - The MPD_thres module will generate testbed by stratifying the 25% samples from the entire AE test set.
    - Using the testbed, a threshold is determined for classifying the samples as Clean or AE sample.
