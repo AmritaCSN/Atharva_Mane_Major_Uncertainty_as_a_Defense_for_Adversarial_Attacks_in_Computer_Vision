@@ -12,13 +12,13 @@ This repository contains code implementation of Minimum Prediction Deviation (MP
 
 
 ### HOWTO
-AEFinder.py - Use this to find the best parameters for the Adversarial Attacks.
-AP_Finder.py - Use this to find the best parameters for Adversarial Patch attack only.
-AE_Generator.py - Use this to generate the AEs based on the parameters found.
-MPD.py - Use this to create your MPD Detector (Pass the Ensemble to this module).
-MPD_Thres.py - This code will calculate the best threshold and evaluate the samples using MPD.
-MNIST_100_DNN - Use this code to generate the Ensemble of DNNs for MNIST Dataset (count is set to 100).
-GTSRB_100_DNN - Use this code to generate the Ensemble of DNNs for GTSRB Dataset (count is set to 100).
+- AEFinder.py - Use this to find the best parameters for the Adversarial Attacks.
+- AP_Finder.py - Use this to find the best parameters for Adversarial Patch attack only.
+- AE_Generator.py - Use this to generate the AEs based on the parameters found.
+- MPD.py - Use this to create your MPD Detector (Pass the Ensemble to this module).
+- MPD_Thres.py - This code will calculate the best threshold and evaluate the samples using MPD.
+- MNIST_100_DNN - Use this code to generate the Ensemble of DNNs for MNIST Dataset (count is set to 100).
+- GTSRB_100_DNN - Use this code to generate the Ensemble of DNNs for GTSRB Dataset (count is set to 100).
 
 ## Overview
 
