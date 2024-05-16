@@ -2,6 +2,6 @@
 
 
 <p align="center">
-  <img src="Architechture Diagram.png?raw=true" width="467" title="Flow Daigram">
+  <img src="Architechture Diagram.png?raw=true" title="Flow Daigram">
 </p>
 <br />
