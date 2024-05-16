@@ -15,22 +15,6 @@ from torchvision import transforms, datasets
 import os
 import cv2
 import logger_utils
-import wandb
-
-######################### WandB ###########################
-wandb.login(key='b432015ff81525e0aa5d845210ea33fb88ca83e7')
-# start a new wandb run to track this script
-wandb.init(
-    # set the wandb project where this run will be logged
-    project="GTSRB_100DNN",
-    
-    # track hyperparameters and run metadata
-    config={
-    "architecture": "GTSRB",
-    "dataset": "GTSRB",
-
-    }
-) 
 
 
 logger=logger_utils.get_logger('GTSRB_DNN_Logs')
@@ -149,7 +133,7 @@ for model_index in range(n_models):
     
 logger.info("------------Saving the Models------------")
 # Define the directory where you want to save the models
-save_dir = "/home/giladgressel/Atharva_MPD/GTSRB_DNN/GTSRB_Ensemble_100/"
+save_dir = "/GTSRB_Ensemble_100/"
 # Ensure the directory exists, if not create it
 import os
 os.makedirs(save_dir, exist_ok=True)
@@ -163,4 +147,3 @@ logger.info(f"Code completed at: {end}")
 logger.info("####################################################")
 logger.info("############ Code Run Complete ############")
 logger.info("####################################################")
-wandb.finish()

@@ -115,7 +115,7 @@ for model_index in range(n_models):
     
 logger.info("------------Saving the Models------------")
 # Define the directory where you want to save the models
-save_dir = "GTSRB_Ensemble/"
+save_dir = "MNIST_Ensemble/"
 # Ensure the directory exists, if not create it
 import os
 os.makedirs(save_dir, exist_ok=True)
